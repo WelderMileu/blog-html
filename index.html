@@ -14,6 +14,7 @@
         background-image: url("./build/imagens/Intersect.png");
         background-repeat: no-repeat;
         background-position-x: center;
+        background-position-y: bottom;
     }
 </style>
 
@@ -45,16 +46,10 @@
             </p>
         </div>
 
-        <div class="absolute top-0 right-0 z-40">
-            <img src="build/imagens/Subtract.svg" alt="">
-        </div>
-
-        <div class="hidden sm:block absolute bottom-0 left-0">
-            <img src="build/imagens/Group1.svg" alt="">
-        </div>
-
-        <div class="absolute bottom-0 w-64 sm:w-auto right-0 pr-0 sm:pr-20">
-            <img src="build/imagens/img01.png" alt="">
+        <div>
+            <img class="absolute top-0 right-0 z-40" src="build/imagens/Subtract.svg" alt="">
+            <img class="hidden sm:block absolute bottom-0 left-0" src="build/imagens/Group1.svg" alt="">
+            <img class="absolute bottom-0 w-48 sm:w-auto right-0 pr-0 sm:pr-20" src="build/imagens/img01.png" alt="">
         </div>
     </section>
 
@@ -188,17 +183,15 @@
             <img src="./build/imagens/Group8.svg" alt="">
         </div>
         <div class="flex flex-col justify-center ml-10 sm:ml-20">
-            <h1 class="text-3xl text-gray-700">Contato</h1>
+            <h1 class="text-4xl text-gray-700">Contato</h1>
+            
             <div class="mt-10 relative">
-                <div class="">
-                    <i class="fa fa-envelope absolute ml-2 mt-3 text-2xl text-gray-700"></i>
-                </div>
+                <i class="fa fa-envelope absolute ml-2 mt-3 text-2xl text-gray-700"></i>
                 <input class="border-b border-gray-500 pl-16 p-4 text-lg outline-none" type="text" placeholder="Email">
             </div>
+            
             <div class="mt-10 relative">
-                <div class="">
-                    <i class="fa fa-user absolute ml-4 mt-3 text-2xl text-gray-700"></i>
-                </div>
+                <i class="fa fa-user absolute ml-4 mt-3 text-2xl text-gray-700"></i>
                 <input class="border-b border-gray-500 pl-16 p-4 text-lg outline-none" type="text" placeholder="Name">
             </div>
 
@@ -221,13 +214,14 @@
     </section>
 
     <!-- infromações sobre o desenvolvedor da aplicação -->
-    <div class="mt-64 flex flex-col justify-center items-center mb-20">
-        <h1 class="text-2xl sm:text-4xl mb-20 text-gray-700">Desenvolvedor / Design </h1>
-        <div class="h-auto card__description mt-20 flex flex-col items-center w-5/6 sm:w-screen">
-            <div class="flex flex-row w-20 border w-20 h-20 p-2 border-gray-500 overflow-hidden rounded-full shadow-lg">
+    <div class="card__description mt-64 flex flex-col justify-center items-center mb-20">
+        <h1 class="text-2xl sm:text-4xl mb-10 sm:mb-20 text-gray-700">Desenvolvedor / Design </h1>
+        <div class="h-auto mt-20 flex flex-col items-center w-5/6 sm:w-screen">
+            <div
+                class="mb-10 bg-white flex flex-row w-20 border w-48 h-48 p-2 border-gray-500 overflow-hidden rounded-full shadow-lg">
                 <img src="./build/imagens/img01.png" alt="">
             </div>
-            <p class="text-gray-600 pt-10 text-left pl-10 w-5/6 sm:w-2/6 text-center">
+            <p class="text-gray-600 text-lg pb-5 pb-10 pt-10 text-left pl-10 w-6/6 sm:w-2/6 text-center">
                 Sou uma blogueira tenho canal no youtube, uma conta no instagram meu sonho e se tornar
                 uma jornalista, atualmente estou fazendo faculdade em busca dos meus sonhos.
             </p>
