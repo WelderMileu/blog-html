@@ -1,4 +1,4 @@
-## Blog Desenvolvido com tailwindcss
+## BLOG DESENVOLVIDO COM TAILWINDCSS
 
 Para adicionar ao meu portifolio.
 
